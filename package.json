@@ -1,0 +1,11 @@
+{
+  "name": "org.rti.kidsthrive.secugen",
+  "version": "1.0.0",
+  "description": "This plugin is for Phonegap/Cordova 3.x.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yaseen Hejazi",
+  "license": "ISC"
+}
