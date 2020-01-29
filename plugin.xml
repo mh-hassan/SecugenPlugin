@@ -2,9 +2,11 @@
 <plugin id="org.rti.kidsthrive.secugen" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>SecugenPlugin</name>
 	<description>Plugin for Secugen fingerprint scanners</description>
+	
 	<js-module name="SecugenPlugin" src="www/SecugenPlugin.js">
-		<clobbers target="cordova.plugins.SecugenPlugin" />
+		<clobbers target="SecugenPlugin" />
 	</js-module>
+
 	<platform name="android">
 		<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="SecugenPlugin">
